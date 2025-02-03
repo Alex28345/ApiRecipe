@@ -33,7 +33,7 @@ class GeminiController extends AbstractController
         - `title` : le nom de la recette
         - `description` : une courte description
         - `steps` : une liste d'étapes pour préparer la recette
-        - `ingredients` : une liste d'ingrédients avec leur quantité et unité si possible
+        - `ingredients` : une liste d'ingrédients avec leur quantité et unité si possible formattés en json également
         Les ingrédients obligatoires sont : $ingredientList. 
         Réponds uniquement avec du JSON valide, sans texte supplémentaire ni formatage en ```json```.";
 
